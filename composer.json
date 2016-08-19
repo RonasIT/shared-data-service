@@ -1,5 +1,5 @@
 {
-  "name": "ronasit/shared-data-service",
+  "name": "ronasit/shared-data",
   "version" : "0.0.0",
   "description": "Provided middleware for implementing of shared data for all views.",
   "keywords": ["laravel", "shared data"],
