@@ -1,6 +1,7 @@
 <?php
 
-namespace RonasIT\Support;
+namespace RonasIT\Support\SharedData;
+
 use Illuminate\Support\ServiceProvider;
 
 class SharedDataServiceProvider extends ServiceProvider

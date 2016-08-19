@@ -1,6 +1,6 @@
 <?php
 
-namespace RonasIT\Support\Services;
+namespace RonasIT\Support\SharedData\Services;
 
 /**
  * Created by PhpStorm.

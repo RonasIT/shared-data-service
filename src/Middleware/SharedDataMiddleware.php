@@ -1,6 +1,6 @@
 <?php
 
-namespace RonasIT\Support\Middleware;
+namespace RonasIT\Support\SharedData\Middleware;
 
 use Closure;
 use Illuminate\View\View;
@@ -39,7 +39,7 @@ class SharedDataMiddleware {
     }
 
     protected function setSharedData($view, $request) {
-        $data = $this->getData($request);
+        $data = $this->dataService->getData($request);
 
         $viewData = $view->getData();
 
