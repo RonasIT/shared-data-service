@@ -5,16 +5,9 @@
 Для того, чтоб интегрировать плагин в ваш проект требуется
 
 1. Добавить его в композер  
-    а. В блок repositories добавить ссылку на этот репозиторий  
-        "repositories": [  
-            {  
-                "type": "git",  
-                "url": "git@projects.ronasit.com:support/shared-data-service.git"  
-            }  
-        ]  
-    б. В блок required добавить сам плагин  
+    а. В блок required добавить сам плагин  
         "ronasit/shared-data": "master-dev"    
-    в. Выполнить в консоли в папке проекта   
+    б. Выполнить в консоли в папке проекта   
         composer update  
 2. Интегрировать плагин в проект Laravel  
     а. Добавить сервис-провайдер в блок prividers файла config/app.php  
